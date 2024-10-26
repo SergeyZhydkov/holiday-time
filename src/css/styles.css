@@ -1,43 +1,32 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-
-/* Common styles */
+/* скидання */
 @import url('./reset.css');
-/* @import url('./base.css'); */
-/* @import url('./container.css'); */
-/* @import url('./animations.css');  */
-/* .body {
-  background-color: rgb(101, 117, 114, 100);
-} */
-/* .main {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  background-color: rgb(220, 220, 220, 100);
-} */
 
 /* Sections style */
 @import url('./header.css');
-/* @import url('./vite-promo.css'); */
-/* @import url('./badges.css'); */
-/* @import url('./back-link.css'); */
 @import url('./footer.css');
 @import url('./part1.css');
 @import url('./swiper.css');
 @import url('./part2.css');
 @import url('./callback.css');
 @import url('./about-us.css');
-/* body {
-  margin: 0, auto;
-} */
+@import url('./account.css');
+@import url('./contacts.css');
+@import url('./reservation.css');
+@import url('./reservation-house.css');
+
 .main {
   display: flex;
   flex-direction: column;
   gap: 30px;
   background-color: rgb(220, 220, 220, 100);
-  margin: 0, auto;
+
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+.title-box {
+  width: 1920px;
+  height: 140px;
+  background-color: rgb(198, 198, 220, 100);
+  margin-bottom: 15px;
 }

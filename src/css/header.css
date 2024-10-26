@@ -45,8 +45,9 @@
 .header {
   /* border: 5px solid red; */
   width: 1920px;
+
   background-color: rgb(38, 47, 82);
-  /* height: 90px; */
+  height: 90px;
   display: flex;
   gap: 40px;
 
@@ -65,21 +66,21 @@
 } */
 .header-list {
   display: flex;
-
+  gap: 60px;
   width: 1066px;
   height: 57px;
-  /* justify-content: space-between; */
-  gap: 40px;
+  padding-top: 30px;
 }
 .element-logo2 {
   display: flex;
   gap: 15px;
 }
 .elem-logo1 {
-  /* margin-left: 100x; */
   padding-left: 100px;
   margin-right: 250px;
 }
 .elem-text {
   color: white;
+  font-size: 25px;
+  font-weight: 500;
 }
