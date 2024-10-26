@@ -4,15 +4,40 @@
   | default @import url()
   |============================
 */
+
 /* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+/* @import url('./base.css'); */
+/* @import url('./container.css'); */
+/* @import url('./animations.css');  */
+/* .body {
+  background-color: rgb(101, 117, 114, 100);
+} */
+/* .main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(220, 220, 220, 100);
+} */
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+/* @import url('./vite-promo.css'); */
+/* @import url('./badges.css'); */
+/* @import url('./back-link.css'); */
 @import url('./footer.css');
+@import url('./part1.css');
+@import url('./swiper.css');
+@import url('./part2.css');
+@import url('./callback.css');
+@import url('./about-us.css');
+/* body {
+  margin: 0, auto;
+} */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(220, 220, 220, 100);
+  margin: 0, auto;
+}

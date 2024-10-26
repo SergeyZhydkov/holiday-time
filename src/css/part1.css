@@ -1,0 +1,32 @@
+.part1 {
+  /* border: 5px solid yellow; */
+  width: 1920px;
+  /* height: 90px; */
+
+  /* background-image: url(./img/part1-1.jpg); */
+}
+.hero {
+  background-image: url(../img/part1-1.jpg);
+
+  text-align: center;
+  /* border: 2px solid red; */
+  margin: 0, auto;
+
+  /* max-width: 1488px; */
+  height: 369px;
+  padding-top: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-title {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.hero-subtitle {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}

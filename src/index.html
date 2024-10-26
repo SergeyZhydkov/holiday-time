@@ -8,16 +8,36 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Holiday Time</h1>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <!-- header -->
+    <header>
+      <load src="./partials/header.html" />
+    </header>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+    <main class="main">
+      <section class="part1">
+        <!--частина 1 -->
+        <load src="./partials/part1.html" />
+      </section>
+
+      <section>
+        <!-- свайп -->
+        <load src="./partials/swiper.html" />
+      </section>
+
+      <section>
+        <!-- частина 2 -->
+        <load src="./partials/part2.html" />
+      </section>
+
+      <section>
+        <!-- зворотній виклик -->
+        <load src="./partials/callback.html" />
+      </section>
     </main>
-
-    <load src="./partials/footer.html" />
+    <!-- footer -->
+    <footer>
+      <load src="./partials/footer.html" />
+    </footer>
 
     <script type="module" src="./main.js"></script>
   </body>

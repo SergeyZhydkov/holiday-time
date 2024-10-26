@@ -1,4 +1,4 @@
-.header {
+/* .header {
   padding: 20px 0;
 }
 .nav {
@@ -41,4 +41,45 @@
 }
 .nav-link.active::after {
   background: #747bff;
+} */
+.header {
+  /* border: 5px solid red; */
+  width: 1920px;
+  background-color: rgb(38, 47, 82);
+  /* height: 90px; */
+  display: flex;
+  gap: 40px;
+
+  /* justify-content: center; */
+}
+.heder-nav {
+  display: flex;
+  /* align-content: space-between; */
+  /* justify-content: space-around; */
+  align-items: center;
+  /* text-align: center; */
+}
+/* .heder-nav-div {
+  display: flex;
+  justify-content: space-between;
+} */
+.header-list {
+  display: flex;
+
+  width: 1066px;
+  height: 57px;
+  /* justify-content: space-between; */
+  gap: 40px;
+}
+.element-logo2 {
+  display: flex;
+  gap: 15px;
+}
+.elem-logo1 {
+  /* margin-left: 100x; */
+  padding-left: 100px;
+  margin-right: 250px;
+}
+.elem-text {
+  color: white;
 }

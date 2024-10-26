@@ -1,0 +1,61 @@
+.callback {
+  /* border: 5px solid lightblue; */
+  display: flex;
+  flex-direction: column;
+  width: 518px;
+  height: 481px;
+  /* margin: 0, auto; */
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 550px;
+  margin-bottom: 40px;
+  background-color: rgb(242, 238, 238, 100);
+}
+.callback-title {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.callback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  /* margin-top: 25px; */
+  /* margin-bottom: 30px; */
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.callback-input-name {
+  width: 408px;
+  height: 62px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.callback-input-tel {
+  width: 408px;
+  height: 62px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.callback-label-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.callback-label-tel {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.callback-btn {
+  width: 518px;
+  height: 104px;
+  background-color: rgb(68, 71, 101, 100);
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}

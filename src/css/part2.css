@@ -1,0 +1,26 @@
+.part2 {
+  /* border: 5px solid orange; */
+  /* width: 1920px; */
+  /* height: 90px; */
+  /* background-image: url(../img/part2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  display: flex;
+  padding-top: 5px;
+  background-image: url(../img/part2-1.png);
+  background-size: cover;
+}
+.part2-text {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'PT Sans';
+}
+.part2-div-text {
+  max-width: ;
+  width: 632px;
+  text-align: center;
+
+  align-content: center;
+
+  margin: 0, auto;
+}
