@@ -7,6 +7,7 @@
   padding-left: 150px;
 }
 .reserv-select {
+  position: relative;
 }
 .reserv-select-subtitle {
   /* border: 2px solid red; */
@@ -22,33 +23,82 @@
   margin-bottom: 30px;
   background-color: rgb(232, 232, 232, 100);
 }
+.reserv-select-elem {
+  position: absolute;
+  bottom: 60px;
+  right: 280px;
+  border: none;
+}
 .reserv-list {
+  /* position: absolute; */
 }
 .reserv-element {
   width: 1489px;
+  height: 300px;
   display: flex;
-  gap: 100px;
+  gap: 80px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 100px;
-
   background-color: rgb(189, 189, 198, 100);
+  position: relative;
+}
+.reserv-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
 }
 .reserv-element-block {
   display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex: 1;
+  position: relative;
 }
 .reserv-element-title {
   width: 360px;
+  height: 47px;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 500;
   color: rgb(53, 60, 87, 100);
   margin-bottom: 25px;
-  padding-top: 20px;
+}
+.reserv-divider {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.reserv-element-text-wrap {
+  width: 712px;
+  height: 184px;
+  background-color: rgb(215, 215, 221, 100);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .reserv-element-text {
-  width: 712px;
+  width: 664px;
+  height: 184px;
   font-size: 22px;
+  /* line-height: 1.5; */
+  letter-spacing: 0.02em;
   color: rgb(32, 40, 70, 100);
   background-color: rgb(215, 215, 221, 100);
+  align-content: center;
+  padding-left: 24px;
+}
+.reserv-star-icon {
+  /* background-color: blue; */
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+}
+.reserv-btn {
+  position: absolute;
+  bottom: 10px;
+  right: -80px;
+  border: none;
+  border-radius: 36px;
 }
