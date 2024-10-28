@@ -30,3 +30,12 @@
   background-color: rgb(198, 198, 220, 100);
   margin-bottom: 15px;
 }
+.array-up-div {
+  position: relative;
+}
+.array-up {
+  position: absolute;
+  bottom: 250px;
+  right: 90px;
+  border-radius: 50%;
+}

@@ -1,26 +1,31 @@
 .part2 {
-  /* border: 5px solid orange; */
-  /* width: 1920px; */
-  /* height: 90px; */
-  /* background-image: url(../img/part2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
+  max-width: 1488px;
+  height: 412px;
+  margin: 0 auto;
+  background-color: rgb(193, 193, 195, 90%);
+}
+.part2-wrap {
+  width: 1348px;
+  height: 349px;
   display: flex;
-  padding-top: 5px;
-  background-image: url(../img/part2-1.png);
-  background-size: cover;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 31px;
+}
+.part2-img {
+  padding-left: 120px;
 }
 .part2-text {
   font-size: 26px;
   font-weight: 500;
+  letter-spacing: 1.5px;
   font-family: 'PT Sans';
+  text-align: center;
 }
 .part2-div-text {
-  max-width: ;
   width: 632px;
-  text-align: center;
-
+  height: 349px;
   align-content: center;
-
-  margin: 0, auto;
+  margin: 0 auto;
+  background-color: rgb(234, 234, 235, 70%);
 }
