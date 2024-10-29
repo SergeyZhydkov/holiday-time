@@ -6,7 +6,6 @@
   background-position: center;
   background-size: cover;
   height: 604px;
-  /* position: absolute; */
 }
 .swiper-child {
   position: relative;
@@ -20,16 +19,15 @@
   position: absolute;
 }
 .swiper-elem1 {
-  /* background-image: url(../img/swiper-img1.jpg);
-  background-repeat: no-repeat; */
   text-align: center;
   position: relative;
   left: 920px;
   top: -30px;
-  border-radius: 60px;
-  /* border: 3px solid red; */
   width: 245px;
   height: 68px;
+}
+.swiper-elem1-img {
+  border-radius: 35px;
 }
 .swiper-dots {
   justify-content: center;

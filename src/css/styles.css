@@ -19,9 +19,9 @@
   flex-direction: column;
   gap: 30px;
   background-color: rgb(220, 220, 220, 100);
-
-  min-width: 100vw;
-  min-height: 100vh;
+  max-width: 1920px;
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
   margin: 0;
 }
 .title-box {

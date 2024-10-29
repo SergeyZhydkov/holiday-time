@@ -17,15 +17,15 @@
   gap: 60px;
   width: 1066px;
   height: 57px;
-  padding-top: 30px;
+  padding-top: 10px;
+  align-items: center;
 }
 .header-list-elem {
   border-right: 2px solid #fff;
 }
 .element-logo2 {
-  display: flex;
-  gap: 15px;
   padding-left: 70px;
+  padding-right: 15px;
 }
 .elem-logo1 {
   padding-left: 100px;

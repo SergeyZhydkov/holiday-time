@@ -1,0 +1,63 @@
+.account-title {
+  font-size: 48px;
+  color: rgb(32, 40, 70, 100%);
+  padding-top: 40px;
+  padding-left: 180px;
+}
+.account-wrap {
+  width: 1318px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+  background-color: rgb(189, 189, 198, 100%);
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.account-setting {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.account-setting-img {
+  border-radius: 50%;
+}
+.account-setting-btn1 {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(105, 116, 155, 100%);
+  color: white;
+  font-size: 24px;
+}
+.account-setting-btn2 {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(72, 74, 84, 100%);
+  color: white;
+  font-size: 24px;
+}
+.account-data {
+}
+.account-list {
+}
+.account-list-item {
+}
+.account-data-title {
+  font-size: 36px;
+  color: rgb(53, 60, 87, 100%);
+  padding-bottom: 15px;
+}
+.account-divider {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.account-data-title-span {
+  font-weight: 300;
+  color: rgb(53, 60, 87, 80%);
+}
