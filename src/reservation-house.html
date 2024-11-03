@@ -13,14 +13,172 @@
       <load src="./partials/header.html" />
     </header>
     <main class="main">
-      <h1>Бронювання будиночка в Карпатах</h1>
-      <div class="array-up-div">
-        <img
-          class="array-up"
-          src="./img/array-up.jpg"
-          alt="array-up"
-          width="101"
-        />
+      <div class="title-box">
+        <h1 class="reserv-house-title">Бронювання будиночка в Карпатах</h1>
+      </div>
+      <!-- part 1 -->
+      <div class="reserv-house-description">
+        <div class="content-container">
+          <div class="reserv-house-img">
+            <img
+              src="./img/reserv-house-img1.jpg"
+              alt="Будинок в Карпатах"
+              width="611"
+            />
+          </div>
+          <div class="reserv-house-text">
+            <p class="reserv-house-text1">
+              Затишні дерев'яні будиночки, які заховались на окраїні лісу,
+              зустрічатимуть Вас чудовим краєвидом на ранкові полонини.
+            </p>
+            <p class="reserv-house-text2">
+              Ви можете обрати кількість кімнат та місце, яке буде ідеальним для
+              Вас. Територія, на якій базуються будиночки, підійде як і для
+              великих компаній, яким потрібно бути поряд у декількох будинках,
+              так і для пар, які хочуть бути на одинці.
+            </p>
+          </div>
+        </div>
+
+        <div class="reserv-house-small-img">
+          <img
+            class="small-img"
+            src="./img/reserv-house-img2.jpg"
+            alt="Вітальня"
+            width="611"
+            height="343"
+          />
+          <img
+            class="small-img"
+            src="./img/reserv-house-img3.jpg"
+            alt="Спальня"
+            width="441"
+          />
+          <img
+            class="small-img"
+            src="./img/reserv-house-img4.jpg"
+            alt="Ванна кімната"
+            width="422"
+          />
+        </div>
+        <div class="array-up-div">
+          <img
+            class="array-up"
+            src="./img/array-up.jpg"
+            alt="array-up"
+            width="101"
+          />
+        </div>
+      </div>
+      <!-- part 2 -->
+      <h2 class="reserv-house-subtitle">Наявність місць</h2>
+      <div class="reserv-house-section2">
+        <p class="reserv-house-text">
+          Коли б Ви хотіли зупинитись в помешканні Полонини Карпат?
+        </p>
+        <div class="reserv-house-booking">
+          <div class="select-data">
+            <div class="">
+              <label class="data-elem"
+                >Дата заїзду
+                <input class="data-input" name="" type="date" />
+              </label>
+            </div>
+            <div class="">
+              <label class="data-elem"
+                >Дата виїзду
+                <input class="data-input" name="" type="date" />
+              </label>
+            </div>
+            <!-- </div> -->
+            <!-- <div class=""> -->
+            <button class="data-btn">Перевірити наявність вільних місць</button>
+          </div>
+          <div class="selection">
+            <label class="selection-label"
+              >Номери
+              <select class="reserv-house-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </label>
+            <label class="selection-label"
+              >Дорослі
+              <select class="reserv-house-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </label>
+            <label class="selection-label"
+              >Діти
+              <select class="reserv-house-select">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- part 3 -->
+      <div class="">
+        <table class="reserv-house-table">
+          <thead>
+            <tr class="reserv-house-table-head">
+              <th class="th-element" scope="col">Вміщує</th>
+              <th class="th-element" scope="col">Тип розміщення</th>
+              <th class="th-element" scope="col">Ціна</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="reserv-house-table-body">
+              <td class="td-element">
+                <div class="reserv-house-table-person">
+                  <img
+                    class=""
+                    src="./img/icons-person.svg"
+                    alt="person"
+                    width="55"
+                  />
+                  <img
+                    class=""
+                    src="./img/icons-person.svg"
+                    alt="person"
+                    width="55"
+                  />
+                </div>
+              </td>
+              <td class="td-element">
+                <div class="bed-elem">
+                  Двомісний номер <br />
+
+                  1 широке двоспальне ліжко
+                  <img
+                    class=""
+                    src="./img/icon-bed.svg"
+                    alt="bed"
+                    width="117"
+                  />
+                </div>
+              </td>
+              <td class="td-element">
+                <div class="div-btn">
+                  <button class="td-price-btn" type="button" name="price-btn">
+                    Показати ціну
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </main>
     <!-- footer -->

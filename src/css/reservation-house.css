@@ -1,0 +1,166 @@
+.reserv-house-title {
+  width: 1475px;
+  height: 140px;
+  color: rgb(32, 40, 70, 100%);
+  font-size: 48px;
+  font-style: italic;
+  padding-left: 180px;
+  padding-top: 35px;
+}
+.reserv-house-description {
+  width: 100%;
+  max-width: 1490px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-container {
+  display: flex;
+  gap: 20px;
+}
+.reserv-house-img {
+  width: 100%;
+  max-width: 611px; /* Ширина основного изображения */
+  height: auto;
+  object-fit: cover;
+}
+.reserv-house-text {
+  width: 687px;
+  height: 378px;
+}
+.reserv-house-text1 {
+  font-size: 29px;
+  padding-bottom: 20px;
+}
+.reserv-house-text2 {
+  font-size: 29px;
+}
+.reserv-house-small-img {
+  display: flex;
+  gap: 10px;
+}
+.small-img {
+  width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+}
+.array-up-div {
+}
+.array-up {
+}
+.reserv-house-subtitle {
+  width: 333px;
+  /* height: 62px; */
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(32, 40, 70, 100%);
+  margin: 0 auto;
+}
+.reserv-house-section2 {
+  background-color: rgb(144, 164, 174, 100%);
+  width: 1490px;
+  height: 304px;
+  margin: 0 auto;
+}
+.reserv-house-booking {
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin-top: 40px;
+}
+.select-data {
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.data-elem {
+  display: flex;
+  flex-direction: column;
+  font-size: 29px;
+}
+.data-input {
+  width: 350px;
+  height: 62px;
+  margin-top: 10px;
+}
+.reserv-house-text {
+  width: 763px;
+  height: 38px;
+  font-size: 29px;
+  color: black;
+}
+.data-btn {
+  width: 351px;
+  height: 112px;
+  background-color: rgb(43, 54, 92, 100%);
+  color: white;
+  font-size: 29px;
+}
+.selection {
+  display: flex;
+  gap: 75px;
+  padding-left: 90px;
+}
+.selection-label {
+  font-size: 29px;
+}
+.reserv-house-select {
+  width: 61px;
+  height: 62px;
+}
+/* table */
+.reserv-house-table {
+  width: 1490px;
+  height: 279px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.reserv-house-table-head {
+  width: 1490px;
+  height: 76px;
+  background-color: rgb(76, 83, 107, 100%);
+}
+.th-element {
+  font-size: 32px;
+  font-style: italic;
+  color: white;
+  border-right: #8f98b9 solid 2px;
+}
+.reserv-house-table-body {
+  max-width: 100%;
+  height: 279px;
+  background-color: rgb(207, 207, 209, 100%);
+}
+.reserv-house-table-person {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 110px; */
+  /* display: inline-flexbox; */
+}
+.bed-elem {
+  display: flex;
+  padding-left: 50px;
+  gap: 25px;
+
+  /* vertical-align: middle; */
+}
+.td-element {
+  font-size: 32px;
+  font-style: italic;
+  border-right: #8f98b9 solid 2px;
+}
+.td-price-btn {
+  width: 306px;
+  height: 70px;
+  background-color: rgb(104, 123, 192, 100%);
+  color: white;
+  font-size: 32px;
+  font-style: italic;
+}
+.div-btn {
+  display: flex;
+  justify-content: center;
+}

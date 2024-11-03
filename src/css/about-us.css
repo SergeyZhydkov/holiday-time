@@ -1,11 +1,12 @@
 .about-us {
 }
 .about-us-title {
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 400;
-  color: black;
-  padding-top: 55px;
-  padding-left: 120px;
+  font-style: italic;
+  color: rgb(32, 40, 70, 100%);
+  padding-top: 45px;
+  padding-left: 180px;
 }
 .about-div-img {
   width: 1575px;
