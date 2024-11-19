@@ -1,3 +1,6 @@
+.reserv-main {
+  position: relative;
+}
 .reserv-house-title {
   width: 1475px;
   height: 140px;
@@ -15,10 +18,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 30px;
+}
+.back-btn {
+  position: absolute;
+  top: 160px;
+  left: 120px;
+  border-radius: 40px;
 }
 .content-container {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+  /* justify-content: space-between; */
 }
 .reserv-house-img {
   width: 100%;
@@ -27,8 +38,15 @@
   object-fit: cover;
 }
 .reserv-house-text {
-  width: 687px;
+  /* width: 687px; */
+  width: 871px;
   height: 378px;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.descript {
+  background-color: #c7c7c7;
 }
 .reserv-house-text1 {
   font-size: 29px;
@@ -47,26 +65,29 @@
   object-fit: cover;
 }
 .array-up-div {
+  position: absolute;
+  top: 685px;
+  left: 240px;
 }
 .array-up {
 }
 .reserv-house-subtitle {
-  width: 333px;
+  /* width: 333px; */
   /* height: 62px; */
   font-size: 48px;
   font-weight: 700;
   color: rgb(32, 40, 70, 100%);
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .reserv-house-section2 {
   background-color: rgb(144, 164, 174, 100%);
   width: 1490px;
   height: 304px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 .reserv-house-booking {
-  /* display: flex;
-  flex-wrap: wrap; */
   margin-top: 40px;
 }
 .select-data {
@@ -74,7 +95,7 @@
   gap: 40px;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 12px;
 }
 .data-elem {
   display: flex;
@@ -85,6 +106,7 @@
   width: 350px;
   height: 62px;
   margin-top: 10px;
+  font-size: 20px;
 }
 .reserv-house-text {
   width: 763px;
@@ -102,7 +124,6 @@
 .selection {
   display: flex;
   gap: 75px;
-  padding-left: 90px;
 }
 .selection-label {
   font-size: 29px;
@@ -110,6 +131,7 @@
 .reserv-house-select {
   width: 61px;
   height: 62px;
+  font-size: 36px;
 }
 /* table */
 .reserv-house-table {
@@ -117,6 +139,7 @@
   height: 279px;
   border-collapse: collapse;
   margin: 0 auto;
+  margin-bottom: 70px;
 }
 .reserv-house-table-head {
   width: 1490px;
@@ -137,15 +160,11 @@
 .reserv-house-table-person {
   display: flex;
   justify-content: center;
-  /* padding-top: 110px; */
-  /* display: inline-flexbox; */
 }
 .bed-elem {
   display: flex;
   padding-left: 50px;
   gap: 25px;
-
-  /* vertical-align: middle; */
 }
 .td-element {
   font-size: 32px;
